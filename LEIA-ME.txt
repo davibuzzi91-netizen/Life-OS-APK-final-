@@ -1,0 +1,8 @@
+1. Extraia este ZIP no celular.
+2. Dentro da pasta extraída, envie o arquivo LifeOS-Android-source.zip para a raiz do novo repositório GitHub.
+3. No GitHub, crie o arquivo .github/workflows/build-lifeos-apk.yml.
+4. Cole nele o conteúdo de github-workflow/build-lifeos-apk.yml.
+5. Faça o commit. A compilação será iniciada em Actions.
+6. Quando terminar em verde, baixe o artefato LifeOS-APK.
+
+O motivo de o workflow ficar separado é que o GitHub não executa arquivos de workflow que estejam dentro de um ZIP; ele só reconhece arquivos salvos no caminho .github/workflows/.
